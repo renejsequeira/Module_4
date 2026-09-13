@@ -8,14 +8,21 @@ public class Sphere extends Shape{
 	@Override
 	public double surface_area() {
 		double area;
+		area = 4*Math.PI * Math.pow(radius, 2);
 		
-		return 0;
+		return area;
 	}
 
 	@Override
 	public double volume() {
-		// TODO Auto-generated method stub
-		return 0;
+		double vol;
+		vol = (4.0/3.0)*Math.PI *Math.pow(radius , 3);
+		return vol;
+	}
+	
+	public String toString() {
+		String message = String.format("Sphere Surface area %.2f \nSphere Volume %.2gf\n\n", surface_area(),volume());
+		return message;
 	}
 
 }
