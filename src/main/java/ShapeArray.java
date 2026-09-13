@@ -1,3 +1,6 @@
+//Rene Sequeira
+//Module 4 Critical Thinking Assignment
+
 
 public class ShapeArray {
 
